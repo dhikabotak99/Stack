@@ -5,7 +5,7 @@
 public class Stack {
     private int max; //Ukuran dari array stack private long[] stackArray;
     private int top; //Stack Paling atas
-    private long stackArray[];
+    private long stackArray[]= new long[10];
     //Constructor
     public Stack(int s){
         max=s;//Menentukan ukuran array
